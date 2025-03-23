@@ -31,5 +31,4 @@ jobs:
           AUTOUPDATE: ${{vars.AUTOUPDATE}}
           LOGININFO: ${{vars.LOGININFO}}
         run: |
-          chmod +x ./revive.sh
-          ./revive.sh
+          
